@@ -66,7 +66,7 @@ const routes: Routes = [
     ProductsModule
   ],
   providers: [
-    // uncomment this for "hash-bang" routing
+    //  uncomment this for "hash-bang" routing
     // { provide: LocationStrategy, useClass: HashLocationStrategy }
     AUTH_PROVIDERS,
     LoggedInGuard
