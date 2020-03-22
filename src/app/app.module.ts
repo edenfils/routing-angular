@@ -25,6 +25,7 @@ import { LoggedInGuard } from './logged-in.guard';
 
 const routes: Routes = [
   // basic routes
+  { path: 'product/:id', component: ProductsComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },

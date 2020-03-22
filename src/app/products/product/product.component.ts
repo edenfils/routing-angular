@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 
 
 export class ProductComponent {
-  id: string;
+  id:  string;
 
   constructor(private route: ActivatedRoute) {
     route.params.subscribe(params => { this.id = params['id']; });
